@@ -1,0 +1,6 @@
+[app]
+  address = ":22222"
+
+[db]
+  dsn = "root:@tcp(localhost:3306)/sample?charset=utf8mb4&parseTime=True&loc=Local"
+  migrate = false
